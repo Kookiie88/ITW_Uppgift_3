@@ -1,7 +1,7 @@
-let knapp = document.getElementById("knapp");
-let rubrik = document.getElementById("rubrik");
+let button = document.getElementById("button");
+let heading = document.getElementById("heading");
 
-knapp.addEventListener("click", function() {
+button.addEventListener("click", function() {
 
-    rubrik.textContent = "Goodbye World";
+    heading.textContent = "Goodbye World";
 });
